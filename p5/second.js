@@ -16,5 +16,15 @@ function draw() {
 	else{ellipse(110,150,5,5)}
 	if(x>130) {}
 	else{ellipse(130,150,5,5)}
+	arc(35,y,50,50,PI/4,-PI/4,PIE)
+	if(y>250) {}
+	else{ellipse(130,250,5,5)}
+	if(y>270) {}
+	else{ellipse(130,270,5,5)}
+	if(y>290) {}
+	else{ellipse(130,290,5,5)}
+	if(y>310) {}
+	else{ellipse(130,310,5,5)}
+	y=y+1
 	x=x+1
 }
